@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", "sans-serif"; }
+
+.navbar {
+  width: 100%;
+  height: 5rem;
+  background-color: #7942af; }
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 2rem 8rem;
+  height: 100%;
+  color: white;
+  background-color: #7942af; }
+
+.logo-container {
+  flex: 2;
+  margin-right: 3rem; }
+
+.logo {
+  font-family: "Sen", "sans-serif";
+  font-size: 2.6rem; }
+  .logo span {
+    font-family: "Rampart One", cursive; }
+
+.menu-container {
+  flex: 6; }
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  /* making the menu in the middle*/
+  justify-content: center; }
+
+.menu-list-item {
+  /*font-family: "Sen", "sans-serif";*/
+  font-family: "Bebas Neue", cursive;
+  margin-right: 3rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400; }
+  .menu-list-item:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .menu-list-item:active {
+    transform: translateY(0.5px); }
+
+.profile-container {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .profile-container img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover; }
+
+.profile-container-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin: 0 2rem; }
+
+/*______________________________________________________*/
+.sidebar {
+  height: 100%;
+  width: 5rem;
+  background-color: #7942af;
+  position: fixed;
+  top: 0%; }
+
+.sidebar-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0; }
+
+.sidebar-icon {
+  color: white;
+  font-size: 2.4rem;
+  padding: 4rem 0; }
+  .sidebar-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  height: 90vh;
+  background: #acb6e5;
+  background: linear-gradient(90deg, #acb6e5 45%, #86fde8 100%); }
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in; }
+
+.poster img {
+  width: 30rem;
+  height: 80vh;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 1rem 1rem 1rem 0.5rem; }
+
+.movie-content {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 50%;
+  height: 70vh;
+  border-right: rgba(0, 0, 0, 0.3) 0.1rem solid;
+  border-top: rgba(0, 0, 0, 0.3) 0.1rem solid;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 1rem 1rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column; }
+
+.movie-title-rating-year {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  display: flex;
+  font-family: "Rampart One", cursive; }
+
+.movie-name-year {
+  flex: 3;
+  align-items: center; }
+
+.movie-name {
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  color: black; }
+
+.movie-rating {
+  flex: 1;
+  font-size: 3rem;
+  margin-top: 1rem; }
+
+.movie-year {
+  font-size: 2rem;
+  align-self: center;
+  font-weight: bold; }
+
+.movie-info {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  display: grid;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: bold; }
+  .movie-info p {
+    margin-bottom: 2rem; }
+  .movie-info span {
+    margin-left: 0.4rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem; }
+
+.btn {
+  font-family: "Bebas Neue", cursive;
+  margin-right: 3rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  width: 20rem;
+  align-self: center;
+  background-color: inherit;
+  box-shadow: rgba(0, 0, 0, 0.3) 0.2rem 0.2rem 0.1rem 0.1rem;
+  border-radius: 100px;
+  color: white;
+  background-color: #7942af; }
+  .btn:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .btn:active {
+    transform: translateY(0.5px); }

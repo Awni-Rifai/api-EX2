@@ -1,0 +1,20 @@
+{
+  "name": "movieaddict",
+  "version": "1.0.0",
+  "description": "movie and series api",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "compile:sass": "node-sass src/sass/main.scss styles.css -w "
+  },
+  "author": "awni rifai",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "@parcel/transformer-webmanifest": "^2.0.0-rc.0",
+    "node-sass": "^6.0.1",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
